@@ -5,8 +5,8 @@
     "email": "wattterjiang@gmail.com"
   },
   "metadata": {
-    "description": "Water's personal collection of AI skills, featuring content publishing, information collection, trend analysis, app review insights, magazine-style deck generation, course PPTX building, wiki building, project harness generation, resume screening, multi-platform OpenCLI publishing, and SEO/GEO content writing.",
-    "version": "2.4.0",
+    "description": "Water's personal collection of AI skills, featuring content publishing, information collection, trend analysis, app review insights, magazine-style deck generation, course PPTX building, wiki building, project harness generation, resume screening, multi-platform OpenCLI publishing, SEO/GEO content writing, and multi-style comic/infographic prompt generation.",
+    "version": "2.5.0",
     "license": "CC BY-NC-SA 4.0"
   },
   "plugins": [
@@ -157,6 +157,20 @@
       "strict": false,
       "skills": [
         "wtt-seo-geo-writer"
+      ],
+      "version": "0.1.0",
+      "author": {
+        "name": "Water",
+        "email": "wattterjiang@gmail.com"
+      }
+    },
+    {
+      "name": "wtt-nine-comic-imagegen-skills",
+      "description": "Multi-style comic and infographic image-prompt generation across five styles (nine-comic parody explainer, cartoon infographic, four-panel cute comic, Klein-blue line figure, vibe lifestyle portrait) with Chinese-first prompts for ChatGPT, Jimeng, and Midjourney.",
+      "source": "../wattter_skills",
+      "strict": false,
+      "skills": [
+        "wtt-nine-comic-imagegen"
       ],
       "version": "0.1.0",
       "author": {
